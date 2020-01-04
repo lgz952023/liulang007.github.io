@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "微软雅黑";
+}
+img {
+  border: none;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+a,
+input {
+  outline: none;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+}
+i,
+em {
+  font-style: normal;
+}
+img {
+  width: 100%;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+body {
+  background: #f3f3f3;
+  font-size: 0.33333333rem;
+}
+li {
+  list-style: none;
+}
+header {
+  background: #61677c;
+  height: 3rem;
+  position: relative;
+  color: #fff;
+}
+header .back {
+  position: absolute;
+  top: 0.16666667rem;
+  left: 0.5rem;
+  color: #fff;
+}
+header .top {
+  padding: 0.16666667rem 1.83333333rem;
+  height: 1.25rem;
+}
+header .top > div {
+  width: 33.3%;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  float: left;
+  font-size: 0.66666667rem;
+  text-align: center;
+}
+header .bot {
+  padding: 0.16666667rem 0rem;
+  height: 1.25rem;
+}
+header .bot > div {
+  width: 33.3%;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  float: left;
+  font-size: 0.5rem;
+  text-align: center;
+}
+header .bot .ac {
+  color: #ff905b;
+}
+.card {
+  width: 90%;
+  margin: 0.41666667rem auto;
+  height: 4.33333333rem;
+  border-radius: 0.25rem;
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+  padding: 0 0.3rem;
+}
+.card .peo {
+  width: 0.56666667rem;
+  height: 0.56666667rem;
+  display: block;
+  background: #ff905b;
+  color: #fff;
+  line-height: 0.56666667rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 0.33333333rem;
+  border-bottom-right-radius: 50%;
+  text-align: center;
+}
+.card .site {
+  width: 66%;
+  margin-top: 0.5rem;
+  padding-left: 0.83333333rem;
+}
+.card .site div {
+  font-size: 0.48333333rem;
+  line-height: 0.81666667rem;
+  position: relative;
+}
+.card .site .start:after {
+  content: "";
+  position: absolute;
+  width: 0.25rem;
+  height: 0.25rem;
+  background: #1ad1ac;
+  top: 0.3rem;
+  left: -0.46666667rem;
+  border-radius: 50%;
+}
+.card .site .dest:after {
+  content: "";
+  position: absolute;
+  width: 0.25rem;
+  height: 0.25rem;
+  background: #ff8951;
+  top: 0.3rem;
+  left: -0.46666667rem;
+  border-radius: 50%;
+}
+.card .site .detail {
+  color: #999999;
+  font-size: 0.33333333rem;
+}
+.card .site .detail:after {
+  content: "";
+  position: absolute;
+  width: 0.16666667rem;
+  height: 0.16666667rem;
+  background: #999;
+  top: 0.36666667rem;
+  left: -0.43333333rem;
+  border-radius: 50%;
+}
+.card .time {
+  width: 25%;
+  float: right;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+.card .time .hour {
+  font-size: 0.66666667rem;
+  line-height: 1rem;
+}
+.card .time .peonum {
+  font-size: 0.41666667rem;
+  line-height: 0.83333333rem;
+}
+.card .time .peonum i {
+  font-size: 0.58333333rem;
+}
+.card .user {
+  border-top: 1px solid #e6e6e6;
+  height: 1.05rem;
+  padding-top: 0.25rem;
+}
+.card .user .pic {
+  height: 0.83333333rem;
+  line-height: 0.83333333rem;
+}
+.card .user .pic img {
+  border-radius: 50%;
+  width: 0.83333333rem;
+  height: 0.83333333rem;
+  overflow: hidden;
+  border: 1px #000 solid;
+  margin-right: 0.16666667rem;
+}
+.card .user .find {
+  width: 1.66666667rem;
+  height: 0.66666667rem;
+  background: #1AD1AC;
+  color: #fff;
+  line-height: 0.66666667rem;
+  border: none;
+  border-radius: 0.41666667rem;
+  margin: 0.16666667rem 0.25rem 0 0;
+}
+.cars {
+  display: none;
+}

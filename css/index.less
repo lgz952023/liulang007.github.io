@@ -1,0 +1,61 @@
+*{margin:0;padding:0;font-family: "微软雅黑";}
+img{border:none;}
+li{list-style: none;}
+a{text-decoration: none;}
+a,input{outline: none;}
+.clearfix:after{content: '';display: block;height:0;clear: both;}
+i,em{font-style: normal;}
+img{width:100%;}
+.fl{float: left;}
+.fr{float: right;}
+body{background: #f3f3f3;font-size: 20/@w;}
+li{list-style: none;}
+//代码开始
+@w:60rem;
+@basew:694/@w;
+header{background: url(../img/dead.png) no-repeat;background-size: contain;height: 573/@w;width: 100%;position: relative;}
+.btnbox{width: 90%;height: 190/@w;position: absolute;top: 67%;left: 5%;background: rgba(70,76,98,0.8);border-radius: 20/@w;}
+.btnbox input{margin: 0 auto;display: block;width:55%;height: 80/@w;line-height: 80/@w;background-color:transparent;border: none;margin-top: 8/@w;position: relative;color: #fff;font-size: 35/@w;}
+.btnbox span{display: block;width: 20/@w;height: 20/@w;background: #fff;}
+.btnbox label span :before{content: "";width: 10/@w;height: 10/@w;position: absolute;background: #fff;top: 10/@w;left: 10/@w;}
+.btnbox button{border: none;border-radius: 50%;position: absolute;text-align: center;}
+.btnbox .exch{width: 64/@w;height: 64/@w;line-height: 64/@w;border: 1px solid #868a9b;color: #868a9b;background: transparent;font-size: 25/@w;top: 31%;left: 7%;}
+.btnbox .search{width: 100/@w;height: 100/@w;line-height: 100/@w;border: 1px solid #1ad1ac;color: #fff;background: #1ad1ac;top: 20%;right: 3%;font-size: 45/@w;
+               }
+input::-webkit-input-placeholder { /* WebKit browsers */
+　　color:#fff;
+　　}
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+　　color:#fff;
+　　}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+　　color:#fff;
+　　}
+input:-ms-input-placeholder { /* Internet Explorer 10+ */
+　　color:#fff;
+　　}
+
+.main{margin-bottom: 200/@w;}
+.today{display:block;width: 57/@w;height: 25/@w;line-height: 25/@w;background: #ff905b;color: #fff;font-size: 20/@w;margin-top: 20/@w;border-bottom-right-radius: 14/@w;border-top-right-radius: 14/@w; }
+.card{width: 90%;margin: 25/@w auto;height: 260/@w;border-radius: 15/@w;background: #fff;position: relative;overflow: hidden;padding:0 18/@w;}
+.card .peo{width: 34/@w;height: 34/@w;display: block;background: #ff905b;color: #fff;line-height: 34/@w;position: absolute;top:0;left: 0;font-size: 20/@w;border-bottom-right-radius: 50%;text-align: center;}
+.card .site{width: 66%;margin-top: 30/@w;padding-left: 50/@w;}
+.card .site div{font-size: 29/@w;line-height: 49/@w;position: relative;}
+.card .site .start:after{content: "";position: absolute;width: 15/@w;height: 15/@w;background: #1ad1ac;top: 18/@w;left: -28/@w;border-radius: 50%;}
+.card .site .dest:after{content: "";position: absolute;width: 15/@w;height: 15/@w;background: #ff8951;top: 18/@w;left: -28/@w;border-radius: 50%;}
+.card .site .detail{color: #999999;font-size: 20/@w;}
+.card .site .detail:after{content: "";position: absolute;width: 10/@w;height: 10/@w;background: #999;top: 22/@w;left: -26/@w;border-radius: 50%;}
+.card .time{width: 25%;float: right;margin-top: 30/@w;text-align: center;}
+.card .time .hour{font-size: 40/@w;line-height: 60/@w;}
+.card .time .peonum{font-size: 25/@w;line-height: 50/@w;}
+.card .time .peonum i{font-size: 35/@w;}
+.card .user{border-top: 1px solid #e6e6e6;height: 63/@w;padding-top: 15/@w;}
+.card .user .pic{height: 50/@w;line-height: 50/@w;}
+.card .user .pic img{border-radius: 50%;width: 50/@w;height: 50/@w;overflow: hidden;border: 1px #000 solid;margin-right: 10/@w;}
+.card .user .find{width: 100/@w;height: 40/@w;background: #1AD1AC;color: #fff;line-height: 40/@w;
+                  border: none;border-radius: 25/@w;margin: 10/@w 15/@w 0 0;      }
+.footer{position: fixed;height: 98/@w;background: #fff;bottom: 0;left: 0;width: 100%;}
+.footer>div{width: 33.3%;text-align: center;float: left;}                  
+.footer>div span{width: 100%;}
+.footer>div a{font-size: 25/@w;line-height: 40/@w;color: #000;}
+.fa-plus-circle{margin-top: -110/@w;}
